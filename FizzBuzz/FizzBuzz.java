@@ -7,7 +7,7 @@ public class FizzBuzz {
 		for(int i = 1; i <= max_count; i++) {
 		if(i % 15 == 0)
 			fbList.add(i-1,"FizzBuzz");
-		else if(i % 3 == 0 && i % 15 != 0)
+		else if(i % 3 == 0)
 			fbList.add(i-1,"Fizz");
 		else if(i % 5 == 0)
 			fbList.add(i-1,"Buzz");
